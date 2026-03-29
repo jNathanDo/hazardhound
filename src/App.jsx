@@ -19,7 +19,7 @@ const INITIAL_ALERTS = [
   { id: 4, lat: 40.7061, lng: -73.997,  title: "Street fair today",   cat: "info",    desc: "Brooklyn Bridge area", time: Date.now() - 1000 * 60 * 40, confirms: 0, dismisses: 0 },
 ];
  
-const ALERT_RADIUS_M = 300;
+const ALERT_RADIUS_M = 100;
 const NEARBY_RADIUS_M = 2000;
 const CONDITIONS = ["TBD", "TBD", "TBD", "TBD", "TBD", "TBD"];
  
