@@ -10,7 +10,7 @@ L.Icon.Default.mergeOptions({
   iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
   iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
-});
+}); 
  
 const INITIAL_ALERTS = [
   { id: 1, lat: 40.7128, lng: -74.006,  title: "Water main break",   cat: "hazard",  desc: "Avoid W 34th St",      time: Date.now() - 1000 * 60 * 5,  confirms: 0, dismisses: 0 },
