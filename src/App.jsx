@@ -21,7 +21,7 @@ const INITIAL_ALERTS = [
  
 const ALERT_RADIUS_M = 300;
 const NEARBY_RADIUS_M = 2000;
-const CONDITIONS = ["Daytime", "Nighttime", "Raining", "Snowing", "Foggy", "Icy roads"];
+const CONDITIONS = ["TBD", "TBD", "TBD", "TBD", "TBD", "TBD"];
  
 function getDistance(lat1, lng1, lat2, lng2) {
   const R = 6371000;
@@ -201,8 +201,8 @@ function ProfileScreen({ notifCategories, onToggleCategory, notifConditions, onT
  
         {/* Conditions */}
         <div className="pref-section">
-          <h3>Active conditions</h3>
-          <p className="pref-desc">Tell the app what conditions you are driving in</p>
+          <h3>Conditions</h3>
+          <p className="pref-desc">Tell the app what conditions you would like to notify us about</p>
           <div className="pref-list">
             {CONDITIONS.map(c => (
               <div key={c} className="pref-row" onClick={() => onToggleCondition(c)}>
